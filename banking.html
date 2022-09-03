@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Bank Marketing Prediction</title>
+		<title>Bank marketing Prediction</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,32 +17,32 @@
 		<!-- Header -->
 			<header id="header">
 				<a href="index.html" class="title">Bank Marketing Prediction</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html" class="active">About Stephen</a></li>
+						<li><a href="Services.html" class="active">Services</a></li>
+						<li><a href="project.html" class="active">Portfolio</a></li>
+					</ul>
+				</nav>
 			</header>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Main -->
-				<section class="container">
-        <form id="my-form" action="{{ url_for('predict')}}"method="post">
-            <p style="text-align: center; color: white;">
-                Enter the 30 feature values in the cell below (in order):
-              </p>
-        
-              <form action="{{ url_for('predict')}}" method="POST">
-                <!-- <input type="text" name="comment"/> -->
-                <div class="justify"> 
-                  <textarea name="message" rows="8" cols="50"></textarea>
-                </div>
-                <br/>
-        
-                <input type="submit" class="btn-info" value="Predict fradulent transactions" />
-              </form>
-            </div>>
-            
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Bank Marketing Prediction</h1>
+							
+							The following project focus on the analysis of a dataset of Bank Marketing which contains data or information about customers and aims to get useful insights from the data and predict if a new customer will accept a deposit offer or not.
 
-        <ul id="users"></ul>
-    </section>
+						<p><a href="https://github.com/IamSteveAde/Bank-Marketing-Prediction" class="image fit thumb">Click here to visit full project</a></p>
+
+
+						</div>
+
+					</section>
 
 			</div>
 

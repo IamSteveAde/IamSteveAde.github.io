@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bank Marketing Prediction</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h2>Bank Marketing Prediction</h2>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+				<section class="container">
+        <form id="my-form" action="{{ url_for('predict')}}"method="post">
+            <p style="color: black;">
+                Enter the customer's <b>31</b> details below(in order): <b> age, default, balance, housing, loan, contact, day,
+                month, duration, campaign, previous, poutcome, job_admin,
+                job (blue-collar), job (entrepreneur), job (housemaid),
+                job (management), job (retired), job (self-employed), job (services),
+                job (student), job (technician), job (unemployed), job (unknown),
+                marital (divorced), marital (married), marital (single),
+                education (primary), education (secondary), education (tertiary),
+                education (unknown)</b>
+                <p><b>Foe Example,  For a customer that is self-employed, married, and has a tertiary education, their response for the Job, marital and 
+                    education field would be:0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0.
+                    Note:Deposit, loan, default, housing is either 'YES' or 'NO'. If response is Yes, enter 1. However,if respose in No, enter 0.
+                    <br> For Contact, there are 3 options: (Cellular = 0, Telephone = 1, Unknown = 2)
+                    <br> For Poutcome, there are 4 options: (Failure = 0, Other = 1, Success = 2, Unknown = 3)
+                </b></p>
+              </p>
+        
+              <form action="{{ url_for('predict')}}" method="POST">
+                <!-- <input type="text" name="comment"/> -->
+                <div class="justify"> 
+                  <textarea name="message" rows="8" cols="50"></textarea>
+                </div>
+                <br/>
+        
+                <input type="submit" class="btn-info" value="Predict fradulent transactions" />
+              </form>
+            </div>
+            
+
+        <ul id="users"></ul>
+    </section>
+
+			</div>
+
+		
+	</body>
+</html>

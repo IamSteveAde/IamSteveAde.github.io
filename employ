@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Unemployment rate in Nigeria</title>
+		<title>Death rate in Nigeria</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,7 +16,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">Unemployment rate in Nigeria</a>
+				<a href="index.html" class="title">Death rate in Nigeria</a>
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -33,19 +33,26 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Rate of Unemployment in Nigeria</h1>
+							<h1 class="major">Death rate in Nigeria</h1>
 							
-							
-									<p>Unemployment Rate In Nigeria</p>
+							Due to my curious nature, I asked myself these four questions:
+							<ul>
+
+								<li>What illness causes the most death in Nigeria?</li>
+								<li>Which states were majorly affected in Nigeria?</li>
+								<li>What are the death rates per year in the Urban and Rural settlements in Nigeria?</li>
+								
+								<li>How many people died or survived a particular illness?</li>
+</p>
+						</ul>
+									<p>Employment Rate In Nigeria</p>
 									<p>This dashboard sheds light on the rate of employment in Nigeria. It answers Six (6) crucial questions concerning Nigeria's unemployment rate.</p>
-										<ul>
-											<li>Comparison of the female's and the male's monthly income</li>
-											<li>What is the employment rate from 2013 to 2017 in Nigeria?</li>
-											<li>Comparison of the female and the male employment rate in Nigeria</li>
-											<li>Can employers afford to rent a house or buy a car with their salary?</li>
-											<li>What was your first employment income?</li>
-											<li>What is your current employment income?</li>
-										</ul>
+										<p>•	Comparison of the female's and the male's monthly income
+										•	What is the employment rate from 2013 to 2017 in Nigeria?
+										•	Comparison of the female and the male employment rate in Nigeria
+										•	Can employers afford to rent a house or buy a car with their salary?
+										•	What was your first employment income?
+										•	What is your current employment income?</p>
 									<p>Comparison of the female's and the male's monthly income</p>
 									<p>Based on the data, the male gender earned higher figures than the female gender. 363 females earned under NGN 20,000 monthly, while 274 males earned under NGN 20,000 per month in Nigeria between 2013 and 2017. On the other hand, 31 Females earned NGN 250,000 and above, while 86 Males earned NGN 250,000 and above. This shows that the male gender earns more than the female gender.</p>
 									<p>What is the employment rate from 2013 to 2017 in Nigeria?</p>
@@ -59,7 +66,7 @@
 									<p>The rate of unemployment keeps increasing in Nigeria. The result of this analysis begs the question: Is education worth it in Nigeria? Would you rather get a skill than spend 4 years in college, which would most likely increase depending on other factors, the most concerning being ASUU strike? </p>
 
 
-						<p><a href="https://public.tableau.com/app/profile/stephen.adediran/viz/EmploymentRateinNigeria/Dashboard1?publish=yes">KINDLY CLICK THIS LINK TO CHECK OUT THE DASHBOARD</a></p>
+						<p><a href="https://public.tableau.com/app/profile/stephen.adediran/viz/DeathrateinNigeria/Dashboard2?publish=yes" class="image fit thumb">KINDLY CLICK THIS LINK TO CHECK OUT THE DASHBOARD</a></p>
 
 
 						</div>

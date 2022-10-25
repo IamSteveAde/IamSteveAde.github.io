@@ -128,6 +128,7 @@
 
 			}
 		});
+		
 
 	// Spotlights.
 		$('.spotlights > section')
